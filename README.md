@@ -18,22 +18,19 @@ See the LICENSE file in the repository
 Using The Template
 ===================
 
-Select the branch with the most suitable template,
-merge it to your project, enjoy!
+Checkout the
+[master branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64)
+of the repository to get more details and learn about other available templates 
 
-Use these script to apply the branch from commandline:
-```bash
-git remote add jonnyzzz-kn https://github.com/jonnyzzz/kotlin-native-mpp-template.git
-git fetch jonnyzzz-kn
-git merge jonnyzzz-kn/<BRANCH_NAME> --allow-unrelated-histories
+In The Branch
+=============
 
-## Enjoy!
+That branch contains an example of the `macos X64` setup
+for Kotlin/Native.
+
+Use the
+```
+./gradlew runDebugExecutableMacosX64
 ```
 
-The list of Templates
-=====================
-
-There are several branches ready:
-- Basic macOS application - [macos-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64)
-
-
+To tun the application!
