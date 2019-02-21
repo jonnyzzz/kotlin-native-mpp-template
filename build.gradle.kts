@@ -13,3 +13,13 @@ repositories {
   mavenCentral()
 }
 
+
+kotlin {
+  macosX64 {
+    binaries {
+      executable {
+        entryPoint = "org.jonnyzzz.kotlin.mpp.template.main"
+      }
+    }
+  }
+}
