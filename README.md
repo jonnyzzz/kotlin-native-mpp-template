@@ -11,7 +11,9 @@ Are we missing more templates? Please contribute!
 License
 =======
 
-MIT. Use it in any way you like
+MIT. 
+
+See the LICENSE file in the repository
 
 Using The Template
 ===================
