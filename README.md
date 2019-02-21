@@ -22,6 +22,16 @@ Checkout the
 [master branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64)
 of the repository to get more details and learn about other available templates 
 
+
+Use these script to apply the branch from commandline:
+```bash
+git remote add jonnyzzz-kn https://github.com/jonnyzzz/kotlin-native-mpp-template.git
+git fetch jonnyzzz-kn
+git merge jonnyzzz-kn/macos-x64 --allow-unrelated-histories
+
+## Enjoy!
+```
+
 In The Branch
 =============
 
