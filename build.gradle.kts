@@ -15,7 +15,7 @@ repositories {
 
 
 kotlin {
-  macosX64 {
+  mingwX64 {
     binaries {
       executable {
         entryPoint = "org.jonnyzzz.kotlin.mpp.template.main"
