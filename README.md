@@ -35,5 +35,6 @@ The list of Templates
 
 There are several branches ready:
 - Basic macOS application - [macos-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64)
+- Basic Windows application - [mingw-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/mingw-x64)
 
 
