@@ -3,17 +3,26 @@ Kotlin Native MPP Template
 
 This repository contains several template projects to simplify the setup of Kotlin/Native projects. Every branch includes a different example.
 
-All projects use Gradle with Kotlin DSL and the Kotlin Multiplatform plugin. You may open the project either in IntelliJ IDEA or in CLion
+All projects use Gradle with Kotlin DSL and the Kotlin Multiplatform plugin. You may open the project in
+[IntelliJ IDEA](https://jetbrains.com/idea),
+[CLion](https://jetbrains.com/clion), or
+[AppCode](https://jetbrains.com/appcode)
 
 Are we missing more templates? Please contribute!
 
+The list of Templates
+=====================
+
+There are several branches ready:
+- macOS application   - [macos-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64)
+- Windows application - [mingw-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/mingw-x64)
 
 License
 =======
 
 MIT. 
 
-See the LICENSE file in the repository
+See the `LICENSE` file in the repository
 
 Using The Template
 ===================
@@ -29,12 +38,5 @@ git merge jonnyzzz-kn/<BRANCH_NAME> --allow-unrelated-histories
 
 ## Enjoy!
 ```
-
-The list of Templates
-=====================
-
-There are several branches ready:
-- Basic macOS application - [macos-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64)
-- Basic Windows application - [mingw-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/mingw-x64)
 
 
