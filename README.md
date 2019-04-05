@@ -19,7 +19,7 @@ Using The Template
 ===================
 
 Checkout the
-[master branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64)
+[master branch](https://github.com/jonnyzzz/kotlin-native-mpp-template)
 of the repository to get more details and learn about other available templates 
 
 
@@ -27,7 +27,7 @@ Use these script to apply the branch from commandline:
 ```bash
 git remote add jonnyzzz-kn https://github.com/jonnyzzz/kotlin-native-mpp-template.git
 git fetch jonnyzzz-kn
-git merge jonnyzzz-kn/macos-x64 --allow-unrelated-histories
+git merge jonnyzzz-kn/linux-x64 --allow-unrelated-histories
 
 ## Enjoy!
 ```
@@ -35,12 +35,12 @@ git merge jonnyzzz-kn/macos-x64 --allow-unrelated-histories
 In The Branch
 =============
 
-That branch contains an example of the `macos X64` setup
+That branch contains an example of the `linux x86_64` setup
 for Kotlin/Native.
 
 Use the
 ```
-./gradlew runDebugExecutableMacosX64
+./gradlew runDebugExecutableLinuxX64
 ```
 
 To tun the application!
