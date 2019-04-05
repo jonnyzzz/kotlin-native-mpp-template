@@ -13,7 +13,8 @@ The list of Templates
 
 There are several branches ready:
 - [macos-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64) - macOS application
-- [mingw-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/mingw-x64) - windows application
+- [mingw-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/mingw-x64) - Windows application
+- [linux-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/linux-x64) - Linux application
 
 Missing more templates? Please contribute or create an issue!
 
