@@ -19,7 +19,7 @@ Using The Template
 ===================
 
 Checkout the
-[master branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64)
+[master branch](https://github.com/jonnyzzz/kotlin-native-mpp-template)
 of the repository to get more details and learn about other available templates 
 
 
