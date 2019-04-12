@@ -12,9 +12,17 @@ The list of Templates
 =====================
 
 There are several branches ready:
+
 - [macos-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64) - macOS application
+- [macos-x64+tests branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64+tests) - macOS application with `kotlin.test`
+
+
 - [mingw-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/mingw-x64) - Windows application
+- [mingw-x64+tests branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/mingw-x64+tests) - Windows application with `kotlin.test`
+
+
 - [linux-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/linux-x64) - Linux application
+- [linux-x64+tests branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/linux-x64+tests) - Linux application with `kotlin.test`
 
 Missing more templates? Please contribute or create an issue!
 
