@@ -35,7 +35,7 @@ git merge jonnyzzz-kn/mingw-x64+tests --allow-unrelated-histories
 In The Branch
 =============
 
-That branch contains an example of the `mingw X64` Kotlin/Native setup
+That branch contains an example of the `mingw x86_64` Kotlin/Native setup
 for Kotlin/Native for Windows.
 
 Use the
