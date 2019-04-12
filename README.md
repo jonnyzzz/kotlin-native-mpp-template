@@ -5,6 +5,7 @@ This repository contains several template projects to simplify the setup of Kotl
 
 All projects use Gradle with Kotlin DSL and the Kotlin Multiplatform plugin. You may open the project in
 [IntelliJ IDEA](https://jetbrains.com/idea),
+Android Studio,
 [CLion](https://jetbrains.com/clion), or
 [AppCode](https://jetbrains.com/appcode)
 
