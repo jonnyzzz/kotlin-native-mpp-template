@@ -23,3 +23,10 @@ kotlin {
     }
   }
 }
+
+val commonTest by kotlin.sourceSets.getting
+
+commonTest.dependencies {
+  implementation(kotlin("test"))
+}
+
