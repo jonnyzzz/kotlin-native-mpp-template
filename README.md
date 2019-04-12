@@ -46,7 +46,7 @@ Use the
 To tun the application!
 
 Tests classes uses `kotiln.test` multiplatform library, 
-see the `src/macosX64Test/kotlin` folder for sources. 
+see the `src/mingwX64Test/kotlin` folder for sources. 
 
 To execute tests, use the
 ```
