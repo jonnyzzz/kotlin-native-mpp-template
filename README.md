@@ -20,6 +20,9 @@ There are several branches ready:
 - [linux-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/linux-x64) - Linux application
 - [linux-x64+tests branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/linux-x64+tests) - Linux application with `kotlin.test`
 
+- [jvm](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/jvm) - Kotlin/JVM application
+
+
 Missing more templates? Please contribute or create an issue!
 
 Checkout the README of the selected branch for more instructions.
