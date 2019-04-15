@@ -1,28 +1,11 @@
-Kotlin Native MPP Template
+Kotlin Native JVM Template
 ==========================
 
-This repository contains several template projects to simplify the setup of Kotlin/Native projects. Every branch includes a different example.
+This branch contains a Kotlin JVM applicatino project. It uses `kotlin-jvm` Gradle plugin instead of the multiplatform plugin.
 
-All projects use Gradle with Kotlin DSL and the Kotlin Multiplatform plugin. You may open the project in
-[IntelliJ IDEA](https://jetbrains.com/idea),
-Android Studio,
-[CLion](https://jetbrains.com/clion), or
-[AppCode](https://jetbrains.com/appcode)
+All projects use Gradle with Kotlin DSL and the Kotlin Multiplatform plugin. You may open the project either in IntelliJ IDEA or in CLion
 
-The list of Templates
-=====================
-
-There are several branches ready:
-- [macos-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64) - macOS application
-- [macos-x64+tests branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/macos-x64+tests) - macOS application with `kotlin.test`
-- [mingw-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/mingw-x64) - Windows application
-- [mingw-x64+tests branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/mingw-x64+tests) - Windows application with `kotlin.test`
-- [linux-x64 branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/linux-x64) - Linux application
-- [linux-x64+tests branch](https://github.com/jonnyzzz/kotlin-native-mpp-template/tree/linux-x64+tests) - Linux application with `kotlin.test`
-
-Missing more templates? Please contribute or create an issue!
-
-Checkout the README of the selected branch for more instructions.
+Are we missing more templates? Please contribute!
 
 License
 =======
@@ -30,4 +13,40 @@ License
 MIT. 
 
 See the `LICENSE` file in the repository
+
+
+
+Using The Template
+===================
+
+Checkout the
+[master branch](https://github.com/jonnyzzz/kotlin-native-mpp-template)
+of the repository to get more details and learn about other available templates 
+
+
+Use these script to apply the branch from commandline:
+```bash
+git remote add jonnyzzz-kn https://github.com/jonnyzzz/kotlin-native-mpp-template.git
+git fetch jonnyzzz-kn
+git merge jonnyzzz-kn/jvm --allow-unrelated-histories
+
+## Enjoy!
+```
+
+In The Branch
+=============
+
+That branch contains an example of the Kotlin/JVM setup.
+
+On Linux and macOS use
+```
+./gradlew run
+```
+On Windows use
+```
+gradlew run
+```
+
+To tun the application!
+
 
